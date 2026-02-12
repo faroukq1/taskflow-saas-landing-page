@@ -22,7 +22,7 @@ const Roadmap = () => (
               }`}
               key={item.id}
             >
-              <div className="relative p-8 bg-white dark:bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-15">
+              <div className="relative p-8 bg-transparent rounded-[2.4375rem] overflow-hidden xl:p-15">
                 <div className="absolute top-0 left-0 max-w-full">
                   <img
                     className="w-full"
@@ -36,7 +36,7 @@ const Roadmap = () => (
                   <div className="flex items-center justify-between max-w-[27rem] mb-8 md:mb-20">
                     <Tagline>{item.date}</Tagline>
 
-                    <div className="flex items-center px-4 py-1 bg-n-1 rounded text-n-8">
+                    <div className="flex items-center px-4 py-1 bg-transparent rounded text-gray-900 dark:text-n-8">
                       <img
                         className="mr-2.5"
                         src={item.status === "done" ? check2 : loading1}
