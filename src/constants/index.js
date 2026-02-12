@@ -49,7 +49,7 @@ export const navigation = [
   },
   {
     id: "2",
-    title: "How to use",
+    title: "How It Works",
     url: "#how-to-use",
   },
   {
@@ -59,13 +59,13 @@ export const navigation = [
   },
   {
     id: "4",
-    title: "New account",
+    title: "Sign Up",
     url: "#signup",
     onlyMobile: true,
   },
   {
     id: "5",
-    title: "Sign in",
+    title: "Log In",
     url: "#login",
     onlyMobile: true,
   },

@@ -15,7 +15,7 @@ This file documents the planned changes to retheme the Brainwave AI chatbot land
 
 ### 2. Constants/Index.js
 
-- [ ] Update `navigation` array:
+- [x] Update `navigation` array:
   - Change "How to use" to "How It Works".
   - Change "New account" to "Sign Up".
   - Change "Sign in" to "Log In".
