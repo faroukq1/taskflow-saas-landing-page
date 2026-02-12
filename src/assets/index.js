@@ -2,6 +2,7 @@ import brainwave from "./brainwave.svg";
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
+import newLogo from "./new_logo.png";
 import play from "./play.svg";
 import gradient from "./gradient.png";
 import smallSphere from "./4-small.png";
@@ -82,6 +83,7 @@ export {
   loading1,
   brainwaveSymbol,
   brainwaveWhiteSymbol,
+  newLogo,
   play,
   gradient,
   smallSphere,

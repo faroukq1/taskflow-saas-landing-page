@@ -79,15 +79,15 @@ export const notificationImages = [check, file02, plusSquare];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Task Tracking",
+  "Team Collaboration",
+  "Project Analytics",
 ];
 
 export const brainwaveServicesIcons = [
-  recording03,
-  recording01,
-  disc02,
+  check,
+  plusSquare,
+  searchMd,
   chromecast,
   sliders04,
 ];
