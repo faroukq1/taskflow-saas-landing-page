@@ -36,21 +36,21 @@ This file documents the planned changes to retheme the Brainwave AI chatbot land
 
 ### 3. Components
 
-- [ ] Hero.jsx:
+- [x] Hero.jsx:
   - Change `<h1>` title to "Streamline Your Projects with TaskFlow".
   - Update `<p>` description to "Unleash team productivity with TaskFlow, the ultimate SaaS for project management and collaboration."
   - Replace `robot` image with project management-themed graphic.
   - Update Notification text from "Code generation" to "Task Assignment".
-- [ ] Benefits.jsx:
+- [x] Benefits.jsx:
   - Change Heading title to "Manage Projects Smarter with TaskFlow".
-- [ ] Services.jsx:
+- [x] Services.jsx:
   - Change Heading title to "Project Management Made Easy." and text to "TaskFlow empowers teams to collaborate and deliver faster."
   - Update `<h4>` to "Smartest Workflow" and `<p>` to "TaskFlow unlocks the potential of efficient project management."
-- [ ] Pricing.jsx:
+- [x] Pricing.jsx:
   - Change Heading tag to "Get started with TaskFlow" and title to "Flexible Plans for Every Team".
-- [ ] Roadmap.jsx:
+- [x] Roadmap.jsx:
   - Change Heading title to "What We're Building Next".
-- [ ] Scan and update any remaining "Brainwave" mentions in Footer, Header, etc., to "TaskFlow".
+- [x] Scan and update any remaining "Brainwave" mentions in Footer, Header, etc., to "TaskFlow".
   - Update button texts like "Get started" to "Start Free Trial".
 
 ### 4. Assets

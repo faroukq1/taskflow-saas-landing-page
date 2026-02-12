@@ -16,8 +16,8 @@ const Services = () => {
     <Section id="how-to-use">
       <div className="container">
         <Heading
-          title="Generative AI made for creators."
-          text="Brainwave unlocks the potential of AI-powered applications"
+          title="Project Management Made Easy."
+          text="TaskFlow empowers teams to collaborate and deliver faster."
         />
 
         <div className="relative">
@@ -33,9 +33,9 @@ const Services = () => {
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="h4 mb-4">Smartest AI</h4>
+              <h4 className="h4 mb-4">Smartest Workflow</h4>
               <p className="body-2 mb-[3rem] text-n-3">
-                Brainwave unlocks the potential of AI-powered applications
+                TaskFlow unlocks the potential of efficient project management.
               </p>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
