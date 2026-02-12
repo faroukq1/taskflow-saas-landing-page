@@ -32,7 +32,7 @@ This file documents the planned changes to retheme the Brainwave AI chatbot land
   - Premium: Description "Advanced collaboration for growing teams", Price "19.99", Features: ["All Basic features", "Advanced analytics", "Priority support", "API access"].
   - Enterprise: Description "Custom solutions for large organizations", Price "Contact us", Features: ["All Premium features", "Dedicated account manager", "Custom integrations", "On-premise deployment"].
 - [x] Update `benefits` array with 6 new items focused on project management (titles and texts as listed in previous summary).
-- [ ] Optionally update `heroIcons` and `notificationImages` to project-themed icons.
+- [x] Optionally update `heroIcons` and `notificationImages` to project-themed icons.
 
 ### 3. Components
 
