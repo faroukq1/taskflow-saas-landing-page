@@ -6,10 +6,10 @@ const ThemeToggle = () => {
   return (
     <div className="fixed bottom-12 right-12 z-50">
       <button
-        className="relative w-16 h-16 bg-n-6/90 backdrop-blur-sm rounded-full p-2 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-color-1 shadow-lg hover:shadow-xl hover:scale-110 border border-n-5/50"
+        className="relative w-16 h-16 bg-white/90 dark:bg-n-6/90 backdrop-blur-sm rounded-full p-2 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-color-1 shadow-lg hover:shadow-xl hover:scale-110 border border-gray-200/50 dark:border-n-5/50"
         onClick={toggleTheme}
       >
-        <div className="w-full h-full bg-gradient-to-br from-n-6 to-n-7 rounded-full flex items-center justify-center">
+        <div className="w-full h-full bg-gradient-to-br from-white to-gray-100 dark:from-n-6 dark:to-n-7 rounded-full flex items-center justify-center">
           {isDark ? (
             <svg
               className="w-6 h-6 text-white"
