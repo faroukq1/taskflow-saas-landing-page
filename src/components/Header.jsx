@@ -31,8 +31,10 @@ const Header = () => {
 
   return (
     <div
-      className={`fixed top-0 left-0 w-full z-50  border-b border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm ${
-        openNavigation ? "bg-n-8" : "bg-n-8/90 backdrop-blur-sm"
+      className={`fixed top-0 left-0 w-full z-50 border-b border-gray-200 dark:border-n-7 lg:bg-gray-50 lg:backdrop-blur-sm dark:lg:bg-n-7/90 ${
+        openNavigation
+          ? "bg-gray-50 dark:bg-n-7"
+          : "bg-gray-50/95 backdrop-blur-sm dark:bg-n-7/90"
       }`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
@@ -43,7 +45,7 @@ const Header = () => {
         <nav
           className={`${
             openNavigation ? "flex" : "hidden"
-          } fixed top-[5rem] left-0 right-0 bottom-0 bg-n-8 lg:static lg:flex lg:mx-auto lg:bg-transparent`}
+          } fixed top-[5rem] left-0 right-0 bottom-0 bg-gray-50 dark:bg-n-8 lg:static lg:flex lg:mx-auto lg:bg-transparent`}
         >
           <div className="relative z-2 flex flex-col items-center justify-center m-auto lg:flex-row">
             {navigation.map((item) => (
@@ -51,13 +53,13 @@ const Header = () => {
                 key={item.id}
                 href={item.url}
                 onClick={handleClick}
-                className={`block relative font-code text-2xl uppercase text-n-1 transition-colors hover:text-color-1 ${
+                className={`block relative font-code text-2xl uppercase text-gray-900 dark:text-n-1 transition-colors hover:text-color-1 ${
                   item.onlyMobile ? "lg:hidden" : ""
                 } px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold ${
                   item.url === pathname.hash
-                    ? "z-2 lg:text-n-1"
-                    : "lg:text-n-1/50"
-                } lg:leading-5 lg:hover:text-n-1 xl:px-12`}
+                    ? "z-2 lg:text-gray-900 dark:lg:text-n-1"
+                    : "lg:text-gray-600 dark:lg:text-n-1/50"
+                } lg:leading-5 lg:hover:text-gray-900 dark:lg:hover:text-n-1 xl:px-12`}
               >
                 {item.title}
               </a>
@@ -69,7 +71,7 @@ const Header = () => {
 
         <a
           href="#signup"
-          className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
+          className="button hidden mr-8 text-gray-600 dark:text-n-1/50 transition-colors hover:text-gray-900 dark:hover:text-n-1 lg:block"
         >
           New account
         </a>
