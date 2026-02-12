@@ -5,7 +5,6 @@ import { brainwave, newLogo } from "../assets";
 import { navigation } from "../constants";
 import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
-import { HamburgerMenu } from "./design/Header";
 import { useState } from "react";
 
 const Header = () => {
@@ -44,7 +43,7 @@ const Header = () => {
 
         <nav
           className={`${
-            openNavigation ? "flex" : "hidden"
+            openNavigation ? "flex bg-gray-50 dark:bg-n-7" : "hidden"
           } fixed top-[5rem] left-0 right-0 bottom-0 lg:static lg:flex lg:mx-auto lg:bg-transparent`}
         >
           <div className="relative z-2 flex flex-col items-center justify-center m-auto lg:flex-row">
@@ -65,8 +64,6 @@ const Header = () => {
               </a>
             ))}
           </div>
-
-          <HamburgerMenu />
         </nav>
 
         <a
@@ -80,7 +77,7 @@ const Header = () => {
         </Button>
 
         <Button
-          className="ml-auto lg:hidden"
+          className="ml-auto lg:hidden bg-gray-100 dark:bg-n-6"
           px="px-3"
           onClick={toggleNavigation}
         >
