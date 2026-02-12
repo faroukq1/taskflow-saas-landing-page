@@ -20,7 +20,7 @@ This file documents the planned changes to retheme the Brainwave AI chatbot land
   - Change "New account" to "Sign Up".
   - Change "Sign in" to "Log In".
 - [ ] Update `brainwaveServices` array to: `["Task Tracking", "Team Collaboration", "Project Analytics"]`.
-- [ ] Update `roadmap` array with new project management milestones:
+- [x] Update `roadmap` array with new project management milestones:
   - Item 0: "Kanban Boards" - "Visualize and manage workflows with drag-and-drop boards for better task organization." (June 2023, done).
   - Item 1: "Time Tracking" - "Track time spent on tasks and projects to improve productivity and billing." (July 2023, progress).
   - Item 2: "Custom Workflows" - "Allow teams to create custom automation rules for repetitive tasks." (August 2023, done).
