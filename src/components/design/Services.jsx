@@ -1,4 +1,5 @@
 import { newLogo, gradient, play } from "../../assets";
+import colaborative from "../../assets/colaborative.jpg";
 import ChatBubbleWing from "../../assets/svg/ChatBubbleWing";
 
 export const Gradient = () => {
@@ -17,10 +18,7 @@ export const Gradient = () => {
 
 export const PhotoChatMessage = () => {
   return (
-    <div className="absolute top-8 right-8 max-w-[17.5rem] py-6 px-8 bg-transparent rounded-t-xl rounded-bl-xl font-code text-base text-gray-900 dark:text-white lg:top-16 lg:right-[8.75rem] lg:max-w-[17.5rem]">
-      Hey TaskFlow, track this task
-      <ChatBubbleWing className="absolute left-full bottom-0 fill-gray-900 dark:fill-white" />
-    </div>
+    <div className="absolute top-8 right-8 max-w-[17.5rem] py-6 px-8 bg-transparent rounded-t-xl rounded-bl-xl font-code text-base text-gray-900 dark:text-white lg:top-16 lg:right-[8.75rem] lg:max-w-[17.5rem]"></div>
   );
 };
 

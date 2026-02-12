@@ -129,7 +129,7 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With intuitive collaboration tools and enterprise-grade security, TaskFlow is the perfect solution for teams aiming to boost productivity.";
+  "With powerful task management and automated workflows, TaskFlow streamlines project execution and enhances team productivity through intelligent organization and seamless collaboration.";
 
 export const collabContent = [
   {

@@ -37,9 +37,9 @@ import protopie from "./collaboration/protopie.png";
 import raindrop from "./collaboration/raindrop.png";
 import slack from "./collaboration/slack.png";
 
-import service1 from "./services/service-1.png";
-import service2 from "./services/service-2.png";
-import service3 from "./services/service-3.png";
+import service1 from "./smart_work_flow.jpg";
+import service2 from "./smart_task_management.jpg";
+import service3 from "./colaborative.jpg";
 
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
